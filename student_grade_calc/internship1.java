@@ -63,7 +63,7 @@ class grade_calculator
           {
               this.grade="Fail";
           }
-        // System.out.println("Grade is "+this.grade);
+        System.out.println("Grade is "+this.grade);
           
      }
     protected void display_result()
