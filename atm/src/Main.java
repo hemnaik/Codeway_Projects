@@ -92,7 +92,7 @@ class resetpassword extends JPanel implements ActionListener
             int flag=0;
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "hemnaik9000123@");
+                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "password");
 
                 try {
                     int pass=Integer.parseInt(t2.getText());
@@ -226,7 +226,7 @@ class check_balance extends JPanel implements ActionListener {
             int flag=0;
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "hemnaik9000123@");
+                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "password");
 
                 try {
                     long account=Long.parseLong(t3.getText());
@@ -326,7 +326,7 @@ class withdrawal extends JPanel implements ActionListener
             int flag=0;
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "hemnaik9000123@");
+                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "password");
 
                 try {
                     long account=Long.parseLong(t3.getText());
@@ -452,7 +452,7 @@ class deposit extends JPanel implements ActionListener
             int flag=0;
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "hemnaik9000123@");
+                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "password");
 
                 try {
                     long account=Long.parseLong(t3.getText());
@@ -576,7 +576,7 @@ class authenticating extends JPanel implements ActionListener
             int flag=0;
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "hemnaik9000123@");
+                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "password");
 
                 try {
 
@@ -709,7 +709,7 @@ class user_account extends JPanel implements ActionListener
 
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "hemnaik9000123@");
+                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "password");
                 try
                 {
                     String name=t2.getText();
