@@ -7,7 +7,7 @@ class numbergame_level3 extends JFrame implements ActionListener
     ImageIcon i2=new ImageIcon("C:\\Users\\hem viraj naik\\Desktop\\internship3_icons\\internship2\\p2.jpg");
     ImageIcon i3=new ImageIcon("C:\\Users\\hem viraj naik\\Desktop\\internship3_icons\\internship2\\p3.jpg");
     ImageIcon i4=new ImageIcon("C:\\Users\\hem viraj naik\\Desktop\\internship3_icons\\internship2\\p4.jpg");
-    ImageIcon i5=new ImageIcon("C:\\Users\\hem viraj naik\\Desktop\\internship3_icons\\internship2\\p5.jpg");
+    ImageIcon i5=new ImageIcon("C:\\Users\\hem viraj naik\\Desktop\\internship3_icons\\internship2\\p5.jpg"); 
     ImageIcon i6=new ImageIcon("C:\\Users\\hem viraj naik\\Desktop\\internship3_icons\\internship2\\p6.jpg");
     ImageIcon i7=new ImageIcon("C:\\Users\\hem viraj naik\\Desktop\\internship3_icons\\internship2\\p7.jpg");
     Font f=new Font("arial",Font.BOLD,15);
