@@ -15,7 +15,7 @@ class resetpassword extends JPanel implements ActionListener
     ImageIcon m = new ImageIcon("C:\\Users\\hem viraj naik\\Desktop\\internship3_icons\\close.jpg");
     ImageIcon b = new ImageIcon("C:\\Users\\hem viraj naik\\Desktop\\internship3_icons\\r.jpg");
 
-    JPasswordField t2 = new JPasswordField();
+    JPasswordField t2 = new JPasswordField(); 
     JTextField t3 = new JTextField();
     JPasswordField t4 = new JPasswordField();
     JLabel l1 = new JLabel("RESET PASSWORD");
